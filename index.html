@@ -3,7 +3,31 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CheckWeather</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>CheckDWeather - Check your city's current weather</title>
   </head>
-  <body></body>
+  <body>
+    <div class="card">
+      <div class="card__header">
+        <h1>CheckDWeather</h1>
+      </div>
+      <div class="card__search">
+        <input type="text" placeholder="Enter the city name" />
+        <button class="card__searchBtn">Check weather</button>
+      </div>
+      <div class="card__display">
+        <div class="card__displayLeft">
+          <div class="card__displayLeft__header">
+            <img src="images/rainy.png" class="card__weatherIcon" />
+          </div>
+          <div class="card__displayLeft__info">
+            <h3 class="card__cityName">City name</h3>
+            <h4 class="card__weather">Rainy</h4>
+          </div>
+        </div>
+        <div class="card__displayRight"></div>
+      </div>
+    </div>
+    <footer class="footer"></footer>
+  </body>
 </html>
