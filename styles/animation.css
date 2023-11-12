@@ -1,0 +1,16 @@
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slideElement {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideAnimation 1s ease forwards;
+}
