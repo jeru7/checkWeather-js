@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 
+/* resets */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* variables */
 :root {
   --primary-color: #1d2819;
   --secondary-color: rgb(51, 64, 53);
@@ -33,6 +35,7 @@ body {
   margin-top: auto;
 }
 
+/* main container */
 .card {
   height: fit-content;
   width: 800px;
@@ -83,8 +86,10 @@ body {
   font-family: "Kanit", serif;
   font-weight: bold;
   background-color: var(--tertiary-color);
+  cursor: pointer;
 }
 
+/* display */
 .card__display {
   height: 400px;
   display: flex;
@@ -98,6 +103,7 @@ body {
     rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
+/* styling for left display */
 .card__displayLeft {
   width: 100%;
   display: flex;
@@ -133,6 +139,7 @@ body {
   opacity: 0.8;
 }
 
+/* styling for right display */
 .card__displayRight {
   width: 100%;
   display: flex;
@@ -163,6 +170,7 @@ body {
   opacity: 0.7;
 }
 
+/* tooltip styles */
 .tooltipText {
   opacity: 0;
   width: 120px;
