@@ -21,11 +21,52 @@
             <img src="images/rainy.png" class="card__weatherIcon" />
           </div>
           <div class="card__displayLeft__info">
-            <h3 class="card__cityName">City name</h3>
-            <h4 class="card__weather">Rainy</h4>
+            <h4 class="card__displayLeft__celcius">21°</h4>
+            <h4 class="card__displayLeft__weather">Rainy</h4>
+            <h3 class="card__displayLeft__cityName">City name</h3>
           </div>
         </div>
-        <div class="card__displayRight"></div>
+        <div class="card__displayRight">
+          <div class="card__displayRight__item">
+            <p class="card__displayRight__info">Precipitation:</p>
+            <img
+              src="images/precipitation.png"
+              alt="precipitation icon"
+              class="card__displayRight__icon"
+            />
+            <p class="card__displayRight__value" id="precipitation"></p>
+          </div>
+
+          <div class="card__displayRight__item">
+            <p class="card__displayRight__info">Humidity</p>
+            <img
+              src="images/humidity.png"
+              alt="humidity icon"
+              class="card__displayRight__icon"
+            />
+            <p class="card__displayRight__value" id="humidity"></p>
+          </div>
+
+          <div class="card__displayRight__item">
+            <p class="card__displayRight__info">Wind</p>
+            <img
+              src="images/wind.png"
+              alt="wind icon"
+              class="card__displayRight__icon"
+            />
+            <p class="card__displayRight__value" id="wind"></p>
+          </div>
+
+          <div class="card__displayRight__item">
+            <p class="card__displayRight__info">Rain chance</p>
+            <img
+              src="images/rainychance.png"
+              alt="rain chance icon"
+              class="card__displayRight__icon"
+            />
+            <p class="card__displayRight__value" id="rainChance"></p>
+          </div>
+        </div>
       </div>
     </div>
     <footer class="footer"></footer>
