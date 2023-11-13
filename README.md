@@ -11,7 +11,7 @@ CheckDWeather is a straightforward web app that tells you the current weather wh
 
 ## Live site
 
-[Visit site](https://jeru7.github.io/checkWeather-js/)
+[Visit site](https://jeru7.github.io/checkWeather-js/){:target="\_blank"}
 
 ## Tech used
 
