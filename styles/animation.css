@@ -1,3 +1,4 @@
+/* slide animation */
 @keyframes slideAnimation {
   0% {
     transform: translateX(-100%);
@@ -12,5 +13,5 @@
 .slideElement {
   opacity: 0;
   transform: translateX(-100%);
-  animation: slideAnimation 1s ease forwards;
+  animation: slideAnimation 2s ease forwards;
 }
