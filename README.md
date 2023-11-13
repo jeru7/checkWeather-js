@@ -11,14 +11,14 @@ CheckDWeather is a straightforward web app that tells you the current weather wh
 
 ## Live site
 
-[Visit site](https://jeru7.github.io/checkWeather-js/){:target="\_blank"}
+<a href="https://jeru7.github.io/checkWeather-js/" target="_blank">Visit site</a>
 
 ## Tech used
 
 - HTML
 - CSS
 - JS
-- Weather API: [WeatherAPI.com] - [Link to Weather API](https://www.weatherapi.com)
+- Weather API - <a href="https://www.weatherapi.com" target="_blank">WeatherAPI.com</a>
 
 ## Preview
 
