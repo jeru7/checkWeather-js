@@ -29,10 +29,39 @@ body {
   color: var(--font-color);
 }
 
+/* footer styles */
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: var(--tertiary-color);
-  height: 50px;
+  color: var(--primary-color);
+  height: 90px;
+  padding: 0.5rem;
   margin-top: auto;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons a {
+  margin: 0.3rem;
+  font-size: 36px;
+  color: black;
+}
+
+.icons a i {
+  font-size: 36px;
+  opacity: 0.8;
+}
+
+.icons a:hover {
+  color: var(--font-color);
+  transition: 0.5s;
 }
 
 /* main container */
