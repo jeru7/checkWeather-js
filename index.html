@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/animation.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>CheckDWeather - Check your city's current weather</title>
   </head>
   <body>
@@ -13,21 +17,18 @@
         <h1>Check<span>D</span>Weather</h1>
       </div>
       <div class="card__search">
-        <input type="text" placeholder="Enter the city name" />
-        <button class="card__searchBtn">Check</button>
+        <input type="text" placeholder="Enter the city name" id="searchInput" />
+        <button class="card__searchBtn" id="searchBtn">Check</button>
       </div>
       <div class="card__display">
         <div class="card__displayLeft">
           <div class="card__displayLeft__header">
-            <img
-              src="images/rainy.png"
-              class="card__weatherIcon slideElement"
-            />
+            <img src="" class="card__weatherIcon slideElement" />
           </div>
           <div class="card__displayLeft__info">
-            <h4 class="card__displayLeft__celcius slideElement">21°</h4>
-            <h4 class="card__displayLeft__weather slideElement">Rainy</h4>
-            <h3 class="card__displayLeft__cityName slideElement">City name</h3>
+            <h4 class="card__displayLeft__celcius slideElement"></h4>
+            <h4 class="card__displayLeft__weather slideElement"></h4>
+            <h3 class="card__displayLeft__cityName slideElement"></h3>
           </div>
         </div>
         <div class="card__displayRight">
@@ -38,9 +39,7 @@
               alt="humidity icon"
               class="card__displayRight__icon slideElement"
             />
-            <p class="card__displayRight__value slideElement" id="humidity">
-              78%
-            </p>
+            <p class="card__displayRight__value slideElement" id="humidity"></p>
           </div>
 
           <div class="card__displayRight__item">
@@ -50,9 +49,7 @@
               alt="wind icon"
               class="card__displayRight__icon slideElement"
             />
-            <p class="card__displayRight__value slideElement" id="wind">
-              3 km/h
-            </p>
+            <p class="card__displayRight__value slideElement" id="wind"></p>
           </div>
 
           <div class="card__displayRight__item">
@@ -62,14 +59,27 @@
               alt="rain chance icon"
               class="card__displayRight__icon slideElement"
             />
-            <p class="card__displayRight__value slideElement" id="rainChance">
-              50%
-            </p>
+            <p
+              class="card__displayRight__value slideElement"
+              id="rainChance"
+            ></p>
           </div>
         </div>
       </div>
     </div>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="icons">
+        <a href="https://github.com/jeru7" target="_blank"
+          ><i class="fa fa-github icon"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jeru7/" target="_blank"
+          ><i class="fa fa-linkedin-square icon"></i
+        ></a>
+      </div>
+      <div class="copyright">
+        <p>Developed by: jeru7</p>
+      </div>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
