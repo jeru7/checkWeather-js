@@ -19,8 +19,7 @@ async function showDisplay() {
     } else {
       const data = await response.json();
       const displayCard = document.querySelector(".card__display");
-      displayCard.style.height = "400px";
-      displayCard.style.display = "flex";
+      displayCard.style.display = "grid";
       updateInfo(data);
     }
   } catch (error) {
