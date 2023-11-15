@@ -4,7 +4,7 @@ searchBtn.addEventListener("click", showDisplay);
 async function showDisplay() {
   const key = "ef5a97c2c2d6478f967102032231011";
   const searchValue = document.querySelector("#searchInput").value;
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${searchValue}&days=1&aqi=no&alerts=no`;
+  const url = `https://api.weatherapi.com/v1/forecast.json?key=${key}&q=${searchValue}&days=1&aqi=no&alerts=no`;
 
   if (searchValue.trim() === "") {
     alert("Please enter a city name");
