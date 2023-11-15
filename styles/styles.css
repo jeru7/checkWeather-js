@@ -67,7 +67,8 @@ body {
 /* main container */
 .card {
   height: fit-content;
-  width: 800px;
+  width: 80%;
+  max-width: 800px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -120,9 +121,10 @@ body {
 
 /* display */
 .card__display {
-  height: 0;
+  height: 450px;
   display: none;
-  transition: height 0.3s ease;
+  grid-template-columns: repeat(2, 1fr);
+  transition: height 0.1s ease;
   gap: 0.375rem;
 }
 
@@ -221,4 +223,16 @@ body {
 .card__displayRight__item:hover .tooltipText {
   opacity: 1;
   visibility: visible;
+}
+
+/* media queries */
+@media only screen and (max-width: 820px) {
+  .card__display {
+    height: 800px;
+    grid-template-columns: 1fr;
+  }
+
+  .card__displayLeft {
+    gap: 0.2rem;
+  }
 }
