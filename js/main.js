@@ -1,5 +1,12 @@
 const searchBtn = document.querySelector("#searchBtn");
+const searchInput = document.querySelector("#searchInput");
+
 searchBtn.addEventListener("click", showDisplay);
+searchInput.addEventListener("keydown", (event) => {
+  if (event.key === "Enter") {
+    showDisplay();
+  }
+});
 
 async function showDisplay() {
   const key = "ef5a97c2c2d6478f967102032231011";
