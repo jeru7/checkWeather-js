@@ -228,11 +228,57 @@ body {
 /* media queries */
 @media only screen and (max-width: 820px) {
   .card__display {
-    height: 800px;
+    height: auto;
+    width: auto;
     grid-template-columns: 1fr;
+    padding: 1rem;
   }
 
   .card__displayLeft {
+    width: 100%;
     gap: 0.2rem;
+    padding: 0.2rem;
+  }
+
+  .card__weatherIcon {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card__displayLeft__info {
+    text-align: center;
+    color: var(--font-color);
+  }
+
+  .card__displayLeft__celcius {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  .card__displayLeft__cityName {
+    font-size: 1.5rem;
+  }
+
+  .card__displayLeft__weather {
+    font-size: 0.75rem;
+    font-style: italic;
+  }
+
+  .card__displayRight {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.7rem;
+  }
+
+  .card__displayRight__icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .card__displayRight__value {
+    font-size: 2rem;
+    opacity: 0.7;
   }
 }
